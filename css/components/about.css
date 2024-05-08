@@ -1,0 +1,18 @@
+
+section{
+  background-color:white;
+}
+
+.about {
+  display: flex;
+  text-align: center;
+  gap: 20rem;
+  flex: 1;
+  max-width: 100rem;
+  scroll-margin-top: 15rem;
+}
+
+.about .title {
+  font-size: 2.4rem;
+  font-weight: 700;
+}

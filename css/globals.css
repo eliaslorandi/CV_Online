@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  margin-top: 15rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1 {
+  font-size: 6.4rem;
+  font-weight: 700;
+  color: black;
+}
+
+h2 {
+  font-size: 4.8rem;
+  font-weight: 700;
+  color: black;
+}
+
+.about-title {
+  font-size: 4rem;
+  font-weight: 700;
+  color: black;
+}
+
+.tertiary-title {
+  font-size: 3.2rem;
+  font-weight: 500;
+  line-height: 4.5rem;
+  color: black;
+}
+
+p:not(:last-of-type),
+.p:not(:last-of-type) {
+  margin-bottom: 2rem;
+}
+
+/* botão */
+.btn {
+  background-color: none;
+  border: none;
+  outline: none;
+  padding: 1rem 3rem;
+  display: inline-block;
+  border-radius: 1rem;
+}
+
+.btn.btn-primary {
+  background-color: rgb(198, 170, 140);
+  color: black;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+.max-width {
+  width: 100%;
+  max-width: 120rem;
+  padding: 0 4rem;
+  margin: 0 auto;
+  margin-bottom: 26rem;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mb-s {
+  margin-bottom: 1rem;
+}
+
+.mb-m {
+  margin-bottom: 2rem;
+}
+
+.mb-l {
+  margin-bottom: 4rem;
+}
+
+.mb-xl {
+  margin-bottom: 6rem;
+}
